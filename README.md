@@ -5,10 +5,10 @@
 # brew & chezmoi need to be installed prior to these instructions - need to edit the brewfile
 
 # installing dotfiles repo - configure git globally first
-chezmoi init --apply https://github.com/$GITHUB_USERNAME/.dotfiles.git
+chezmoi init --apply https://github.com/enkyuan/.dotfiles.git
 
 # alternate method using GitHub
-chezmoi init --apply $GITHUB_USERNAME
+chezmoi init --apply enkyuan
 
 # installing brew packages
 chmod +x brew_pkgs.sh
