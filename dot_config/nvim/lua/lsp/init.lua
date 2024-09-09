@@ -34,7 +34,13 @@ if _lspconfig then
 	})
 
 	-- Clangd (C++)
-	lspconfig.clangd.setup({})
+	lspconfig.clangd.setup({
+        capabilities = capabilities,
+        cmd = { 
+            "clangd", 
+            "--offset-encoding=utf-16" 
+        },
+    })
 
 	-- Bash
 	lspconfig.bashls.setup({
