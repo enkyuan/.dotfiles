@@ -2,9 +2,10 @@
 
 ## installation
 ```bash
-# brew & chezmoi need to be installed prior to these instructions - need to edit the brewfile
+# brew needs to be installed prior to these instructions - need to edit the brewfile
+# configure git globally w/user & personal access token
 
-# installing dotfiles repo - configure git globally first
+# installing dotfiles repo
 chezmoi init --apply https://github.com/enkyuan/.dotfiles.git
 
 # alternate method using GitHub
