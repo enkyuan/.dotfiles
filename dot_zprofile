@@ -1,0 +1,16 @@
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Added by `rbenv init` on Tue Aug 20 14:03:56 CDT 2024
+eval "$(rbenv init - --no-rehash zsh)"
+
+# Setting PATH for Python 3.12
+# The original version is saved in .zprofile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"
+export PATH
+
+# Created by `pipx` on 2024-08-20 23:10:37
+export PATH="$PATH:/Users/enkyuan/.local/bin"
+
+# Created by zoxide
+eval "$(zoxide init zsh)"
