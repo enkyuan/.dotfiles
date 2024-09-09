@@ -2,6 +2,8 @@
 
 ## installation
 ```bash
+# brew & chezmoi need to be installed prior to these instructions - need to edit the brewfile
+
 # installing dotfiles repo - configure git globally first
 chezmoi init --apply https://github.com/$GITHUB_USERNAME/.dotfiles.git
 
