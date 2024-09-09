@@ -1,0 +1,16 @@
+0000000000000000000000000000000000000000 4cc189507e92a7715e2a1d424a1205889ec60750 enkyuan <yuan_enkang@outlook.com> 1725541901 -0500	commit (initial): initial commit
+4cc189507e92a7715e2a1d424a1205889ec60750 0000000000000000000000000000000000000000 enkyuan <yuan_enkang@outlook.com> 1725541908 -0500	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 4cc189507e92a7715e2a1d424a1205889ec60750 enkyuan <yuan_enkang@outlook.com> 1725541908 -0500	Branch: renamed refs/heads/master to refs/heads/main
+4cc189507e92a7715e2a1d424a1205889ec60750 3a4b5c6e60b62a0165b0f8a21e844d49e71f698d enkyuan <yuan_enkang@outlook.com> 1725542083 -0500	pull: Fast-forward
+3a4b5c6e60b62a0165b0f8a21e844d49e71f698d 1169ff8df333a9ef409d702dd92bb9523e5c5006 enkyuan <yuan_enkang@outlook.com> 1725542129 -0500	commit: removed screenshots
+1169ff8df333a9ef409d702dd92bb9523e5c5006 744a87350363d98976bb25430d0e8e9038fcc315 enkyuan <yuan_enkang@outlook.com> 1725542183 -0500	pull: Fast-forward
+744a87350363d98976bb25430d0e8e9038fcc315 8fd55741eccd344744ac990b4e17061f0280720b enkyuan <yuan_enkang@outlook.com> 1725542391 -0500	commit: added vimtex plugin
+8fd55741eccd344744ac990b4e17061f0280720b b2ac4b2b533983ac33047559d45730bf8595ac5a enkyuan <yuan_enkang@outlook.com> 1725595621 -0500	commit: modified bufferline plugin
+b2ac4b2b533983ac33047559d45730bf8595ac5a dd5e41ba882dc5b95831fc2adeb16f022fac3c2c enkyuan <yuan_enkang@outlook.com> 1725595690 -0500	commit: removed 2 files
+dd5e41ba882dc5b95831fc2adeb16f022fac3c2c 025c1c3be49fee4d0cd4e406d21302ef049076be enkyuan <yuan_enkang@outlook.com> 1725595764 -0500	commit: added README.md
+025c1c3be49fee4d0cd4e406d21302ef049076be 08189c3aead96a37c89c0606af5722c0ca84ef9c enkyuan <yuan_enkang@outlook.com> 1725597737 -0500	commit: added rosepine plugin & changed theme
+08189c3aead96a37c89c0606af5722c0ca84ef9c 8252a913aeaf5868c76769ab34f892221e40763b enkyuan <yuan_enkang@outlook.com> 1725597763 -0500	pull: Merge made by the 'ort' strategy.
+8252a913aeaf5868c76769ab34f892221e40763b d589938e3bd7abe62df74609de0c7c29057efd6d enkyuan <yuan_enkang@outlook.com> 1725648825 -0500	commit: updated plugins
+d589938e3bd7abe62df74609de0c7c29057efd6d 8adc399ef69df5ad844089a65baa2fca8f7366de enkyuan <yuan_enkang@outlook.com> 1725810951 -0500	commit: added nvim window picker
+8adc399ef69df5ad844089a65baa2fca8f7366de 2b9120dd9a77a400c23e1ae32232247ae2523109 enkyuan <yuan_enkang@outlook.com> 1725822279 -0500	pull: Fast-forward
+2b9120dd9a77a400c23e1ae32232247ae2523109 fb36da94b83e68cd54479e6adafcd47452b18a87 enkyuan <yuan_enkang@outlook.com> 1725822348 -0500	commit: added screenshots
