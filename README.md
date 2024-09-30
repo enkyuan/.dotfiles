@@ -2,9 +2,6 @@
 
 ## installation
 ```bash
-# brew needs to be installed prior to these instructions - need to edit the brewfile
-# configure git globally w/user & personal access token
-
 # installing dotfiles repo
 chezmoi init --apply https://github.com/enkyuan/.dotfiles.git
 
@@ -31,3 +28,7 @@ there is a warning with generic api keys exposed for vscode extensions and some 
 when updating ruby, make sure to follow the instructions highlighted in these docs:
 
 https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos
+
+complete zathura installation using the following documentation:
+
+https://github.com/zegervdv/homebrew-zathura
