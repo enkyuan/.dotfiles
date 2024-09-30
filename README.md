@@ -1,4 +1,4 @@
-# osx dotfiles
+# personal setup
 
 ## installation
 ```bash
@@ -19,11 +19,9 @@ when installing lem, make sure to follow the instructions highlighted in these d
 
 https://lem-project.github.io/installation/sdl2/macos/
 
-i need to find a way to automate this process but this is for later
+> the clang-tidy executable file was removed from the folder for vscode extensions due to the file size--this is for future reference in case something breaks
 
-the clang-tidy executable file was removed from the folder for vscode extensions due to the file size--this is for future reference in case something breaks
-
-there is a warning with generic api keys exposed for vscode extensions and some other directories--note this if the .vscode directory has issues with installation
+> warning--generic api keys exposed for vscode extensions and some other directories (this if the .vscode dir has issues with installation)
 
 when updating ruby, make sure to follow the instructions highlighted in these docs:
 
