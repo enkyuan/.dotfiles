@@ -1,7 +1,8 @@
 local capabilities = require("lsp.handlers").capabilities
 
-local _lspconfig, lspconfig = pcall(require, "lspconfig")
+local lspconfig = require("lspconfig") 
 if _lspconfig then
+
 	-- Python
 	lspconfig.pyright.setup({
 		autostart = false,
@@ -62,6 +63,28 @@ if _lspconfig then
 		end,
 	})
 
+    -- VUE
+    lspconfig.ts_ls.setup {
+        init_options = {
+            plugins = {
+                {
+                    name = '@vue/typescript-plugin',
+                    location = 'usr/local/lib/node_modules/@vue/language-server',
+                    languages = { 'vue' },
+                },
+            },
+        },
+    }
+
+    -- No need to set `hybridMode` to `true` as it's the default value
+    lspconfig.volar.setup {
+        init_options = {
+            vue = {
+                hybridMode = false,
+            }
+        }
+    }
+
 	-- HTML
 	lspconfig.html.setup({
 		autostart = false,
@@ -74,6 +97,15 @@ if _lspconfig then
 		capabilities = capabilities,
 	})
 
+    -- Ruby
+    lspconfig.ruby_lsp.setup({
+        init_options = {
+            formatter = 'standard',
+            linters = { 'standard' },
+        },
+    })
+
+
 	-- Dockerfile
 	lspconfig.dockerls.setup({
 		autostart = false,
@@ -85,6 +117,7 @@ if _lspconfig then
 		autostart = false,
 		capabilities = capabilities,
 	})
+
 	-- XML
 	lspconfig.lemminx.setup({})
 

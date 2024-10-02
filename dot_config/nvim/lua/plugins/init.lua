@@ -101,6 +101,7 @@ local plugins = {
     --- Language specific
     require("plugins.configs.flutter"),
     require("plugins.configs.vimtex"),
+    require("plugins.configs.peek"),
 }
 
 -- vim.api.nvim_echo({ { 'Active theme: ' .. theme.theme_name, "Normal" } }, true, {});
