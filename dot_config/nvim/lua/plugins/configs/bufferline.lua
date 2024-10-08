@@ -7,11 +7,12 @@ return {
 	config = function()
 		require("bufferline").setup({
 			options = {
+                always_show_bufferline = false,
 				mode = "buffers", -- set to "tabs" to only show tabpages instead
 				numbers = "none",
                 hover = {
                     enabled = true,
-                    delay = 200,
+                    delay = 400,
                     reveal = {'close'},
                 },
 				-- Using famiu/bufdelete.nvim plugin commands to prevent messy behaviours with other plugins
