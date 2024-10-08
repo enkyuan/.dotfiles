@@ -21,6 +21,8 @@ https://lem-project.github.io/installation/sdl2/macos/
 
 > the clang-tidy executable file was removed from the folder for vscode extensions due to the file size--this is for future reference in case something breaks
 
+some notes on the .vscode directory:
+
 > warning--generic api keys exposed for vscode extensions and some other directories (this if the .vscode dir has issues with installation)
 
 when updating ruby, make sure to follow the instructions highlighted in these docs:
