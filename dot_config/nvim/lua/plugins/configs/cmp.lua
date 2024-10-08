@@ -1,6 +1,7 @@
 return {
 	"hrsh7th/nvim-cmp",
-	lazy = true,
+    enabled = false,	
+    lazy = true,
 	dependencies = {
 		"hrsh7th/cmp-copilot",
 		"hrsh7th/cmp-nvim-lsp",

@@ -45,10 +45,12 @@ wk.add({
 	{ "B", "<cmd>lua require('spider').motion('b')<cr>", desc = "[MOTION] Spider-b motion" },
 	{ "E", "<cmd>lua require('spider').motion('e')<cr>", desc = "[MOTION] Spider-e motion" },
 	{ "gE", "<cmd>lua require('spider').motion('ge')<cr>", desc = "[MOTION] Spider-ge motion" },
+
 	---- Following remaps conflict with Neoscroll plugin for scrolling animations
 	{ "<c-d>", "<c-d>zz", desc = "Keep cursor in the middle while scrolling down" },
 	{ "<c-u>", "<c-u>zz", desc = "Keep cursor in the middle while scrolling up" },
 	----
+
 	{ "n", "nzz", desc = "Keep searching result in the middle" },
 	{ "N", "Nzz", desc = "Keep searching result in the middle" },
 
@@ -66,6 +68,7 @@ wk.add({
 	{ "<a-t>", "<cmd>ene<cr>", desc = "[BUFFER] Open a new empty buffer" },
 	{ "Z", "<cmd>wall<cr>", desc = "[BUFFER] Save all" },
 	{ "Q", "<cmd>qall!<cr>", desc = "[BUFFER] Quit all without saving" },
+
 	---- Using famiu/bufdelete.nvim plugin commands to prevent messy behaviours with other plugins
 	{ "<a-q>", "<cmd>Bdelete!<cr>", desc = "[BUFFER] Close current buffer" },
 	{ "<a-w>", "<cmd>%bd!|e#|bd#<cr>", desc = "[BUFFER] Close other buffers" },

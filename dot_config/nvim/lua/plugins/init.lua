@@ -89,7 +89,7 @@ local plugins = {
 	"rafamadriz/friendly-snippets",
 	---- Completion
 	-- require("plugins.configs.coq"),
-	require("plugins.configs.cmp"),
+    require("plugins.configs.blink"),
 	require("plugins.configs.lspsignature"),
 	require("plugins.configs.copilot"),
 	-- Tmux
