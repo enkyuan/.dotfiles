@@ -112,7 +112,7 @@ wk.add({
 	{ "<leader>vf", "<cmd>NeoTreeFocusToggle<cr>", desc = "[NEOTREE] Toggle file tree view" },
 	{ "<leader>vp", "<cmd>TroubleToggle<cr>", desc = "[TROUBLE] Toggle problem and diagnostics view" },
 	{ "<leader>vs", "<cmd>AerialToggle<cr>", desc = "[AERIAL] Toggle file structure view" },
-	{ "<leader>vt", "<cmd>ToggleTerm<cr>", desc = "[TOGGLETERM] Open new terminal" },
+	{ "<leader>vt", "<cmd>lua require('FTerm').toggle()<cr>", desc = "[TOGGLETERM] Open new terminal" },
 	{ "<leader>vu", "<cmd>UndotreeToggle<cr>", desc = "[UNDOTREE]Toggle last undoable changes view" },
 
     -- Debug

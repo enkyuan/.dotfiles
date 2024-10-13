@@ -52,7 +52,8 @@ local plugins = {
     require("plugins.configs.wakatime"),
 	-- require("plugins.configs.colorizer"), -- Colorize written color codes (#02F1AA, rgb(0,10,20)...)
 	require("plugins.configs.neoclip"), -- Clipboard manager
-	require("plugins.configs.toggleterm"), --- Improved terminal toggle
+	-- require("plugins.configs.toggleterm"), --- Improved terminal toggle
+    "numToStr/FTerm.nvim",
 	-- require("plugins.configs.illuminate"), --- Automatically highlighting other uses of the word under the cursor
 	require("plugins.configs.project"), -- Project management
 	"sitiom/nvim-numbertoggle", -- Automatic switch to absolute line numbers when you are not in normal or visual mode, or focus is in other split
@@ -68,6 +69,7 @@ local plugins = {
 	require("plugins.configs.splitjoin"), -- Quick split or join of lists
     "mg979/vim-visual-multi",
     require("plugins.configs.windowpicker"),
+    "rcarriga/nvim-notify",  -- Notifications manager
 
 	---- Code
 	require("plugins.configs.lspsaga"),
