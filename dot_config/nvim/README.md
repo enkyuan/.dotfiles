@@ -4,20 +4,35 @@
 
 ### plugins
 
-...
+> defaults, i.e., neotree, aerial, lualine, bufferline, etc.
+
+FTERM - floating terminal manager
+<br>
+Rose Pine - theme
+
+...and many more
 
 ### hotkeys
 
-...
+> leader is spacebar
 
-## usage
+default vim keybinds with...
+
+<kbd>leader </kbd> + <kbd>f</kbd> for fuzzy finder
+<br>
+<kbd>leader</kbd> + <kbd>vf</kbd> for neotree
+<br>
+<kbd>leader</kbd> + <kbd>vt</kbd> for floating terminal (FTERM)
+<br>
+
+...and many more
 
 ## screenshots
 
-### startify
+### minitro 
 
-![1st sample output screenshot](./screenshots/sample_output_01.png)
+![minitro screenshot](./screenshots/minitro.jpeg)
 
-### text editor
+### editor
 
-![2nd sample output screenshot](./screenshots/sample_output_02.png)
+![editor screenshot](./screenshots/sample_editor.jpeg)

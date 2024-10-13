@@ -69,6 +69,9 @@ wk.add({
 	{ "Z", "<cmd>wall<cr>", desc = "[BUFFER] Save all" },
 	{ "Q", "<cmd>qall!<cr>", desc = "[BUFFER] Quit all without saving" },
 
+    -- Markdown Preview
+    { "<leader>p", "<cmd>PeekOpen<cr>", desc = "[PREVIEW] Open preview of .md files"},
+    
 	---- Using famiu/bufdelete.nvim plugin commands to prevent messy behaviours with other plugins
 	{ "<a-q>", "<cmd>Bdelete!<cr>", desc = "[BUFFER] Close current buffer" },
 	{ "<a-w>", "<cmd>%bd!|e#|bd#<cr>", desc = "[BUFFER] Close other buffers" },
