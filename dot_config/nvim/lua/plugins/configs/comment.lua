@@ -3,7 +3,7 @@ return {
 	config = function()
 		require("Comment").setup({
 			-- toggler = {
-			-- 	-- line = "<c-_>", -- It traslates to Ctrl /
+			-- 	-- line = "<c-_>", -- It translates to Ctrl /
 			-- },
 		})
 		---Line-comment toggle keymap
