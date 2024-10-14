@@ -70,6 +70,8 @@ local plugins = {
     "mg979/vim-visual-multi",
     require("plugins.configs.windowpicker"),
     "rcarriga/nvim-notify",  -- Notifications manager
+    "MunifTanjim/nui.nvim",  -- UI component library
+    require("plugins.configs.noice"), 
 
 	---- Code
 	require("plugins.configs.lspsaga"),
