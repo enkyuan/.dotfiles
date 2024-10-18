@@ -28,10 +28,12 @@ local plugins = {
 	"kyazdani42/nvim-web-devicons",
 	"onsails/lspkind.nvim", -- VSCode like item type icons
 	require("plugins.configs.bufferline"),
+    require("plugins.configs.bufferlist"),
 	"folke/which-key.nvim",
 	require("plugins.configs.neoscroll"), -- Smoother scroll
 	require("plugins.configs.ufo"), -- Better fold management
 	require("plugins.configs.scrollbar"),
+    require("plugins.configs.cursorline"),
 	require("plugins.configs.trouble"),
 	require("plugins.configs.aerial"),
 	-- require("plugins.configs.edgy"), -- Layout configurations
