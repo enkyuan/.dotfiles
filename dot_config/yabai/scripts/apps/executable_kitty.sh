@@ -1,16 +1,9 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-# Detects if kitty is running
-if ! pgrep -f "kitty" > /dev/null 2>&1; then
-    open -a "/Applications/kitty.app"
-else
-    # Create a new window
-    script='tell application "kitty" to create window with default profile'
-    ! osascript -e "${script}" > /dev/null 2>&1 && {
-        # Get pids for any app with "kitty" and kill
-        while IFS="" read -r pid; do
-            kill -15 "${pid}"
-        done < <(pgrep -f "kitty")
-       open -a "/Applications/kitty.app"
-    }
-fi
+index=$(yabai -m query --displays --display | jq .index)
+yabai -m signal --add event=window_created action=" \
+  yabai -m window $YABAI_WINDOW_ID --display $index; \
+  yabai -m display --focus $index; \
+  yabai -m signal --remove 'openkitty'" \
+app="kitty" label="openkitty"
+/Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
