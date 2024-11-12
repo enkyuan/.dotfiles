@@ -2,9 +2,9 @@ local colors = require("colors")
 
 -- Equivalent to the --bar domain
 sbar.bar({
-  topmost = "window",
+  topmost = on,
   hidden=on,
-  height = 40,
+  height = 44,
   sticky = off,
   color = colors.transparent,
   padding_right = 2,

@@ -9,7 +9,7 @@ local media_cover = sbar.add("item", {
   background = {
     image = {
       string = "media.artwork",
-      scale = 0.85,
+      scale = 0.88,
     },
     color = colors.transparent,
   },
@@ -26,15 +26,15 @@ local media_cover = sbar.add("item", {
 local media_artist = sbar.add("item", {
   position = "right",
   drawing = false,
-  padding_left = 3,
+  padding_left = 4,
   padding_right = 0,
   width = 0,
   icon = { drawing = false },
   label = {
     width = 0,
-    font = { size = 9 },
+    font = { size = 8 },
     color = colors.with_alpha(colors.white, 0.6),
-    max_chars = 18,
+    max_chars = 20,
     y_offset = 6,
   },
 })
@@ -42,14 +42,14 @@ local media_artist = sbar.add("item", {
 local media_title = sbar.add("item", {
   position = "right",
   drawing = false,
-  padding_left = 3,
+  padding_left = 2,
   padding_right = 0,
   icon = { drawing = false },
   label = {
-    font = { size = 11 },
+    font = { size = 12 },
     width = 0,
     max_chars = 16,
-    y_offset = -5,
+    y_offset = -4,
   },
 })
 
