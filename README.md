@@ -9,8 +9,8 @@ chezmoi init --apply https://github.com/enkyuan/.dotfiles.git
 chezmoi init --apply enkyuan
 
 # installing brew packages
-chmod +x brew_pkgs.sh
-./brew_pkgs.sh
+chmod +x install.sh
+./install.sh
 ```
 
 ## sidenote(s)
