@@ -28,6 +28,13 @@ local icons = {
       _0 = "􀛪",
       charging = "􀢋"
     },
+    brightness = {
+        _100 = "􀆮",
+        _66 = "􀆮",
+        _33 = "􀆬",
+        _10 = "􀆬",
+        _0 = "􀆬",
+    },
     wifi = {
       upload = "􀄨",
       download = "􀄩",
@@ -49,8 +56,7 @@ local icons = {
     apple = "",
     gear = "",
     cpu = "",
-    clipboard = "Missing Icon",
-
+    clipboard = "􀟺",
     switch = {
       on = "󱨥",
       off = "󱨦",
@@ -75,7 +81,7 @@ local icons = {
       download = "",
       connected = "󰖩",
       disconnected = "󰖪",
-      router = "Missing Icon"
+      router = "􁓤"
     },
     media = {
       back = "",
