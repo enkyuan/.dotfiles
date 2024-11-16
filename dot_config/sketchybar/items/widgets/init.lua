@@ -1,5 +1,5 @@
+require("items.widgets.notifications")
 require("items.widgets.battery")
-require("items.widgets.brightness")
 require("items.widgets.volume")
 require("items.widgets.wifi")
-require("items.widgets.cpu")
+require("items.widgets.metrics")

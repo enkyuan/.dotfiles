@@ -7,8 +7,11 @@ local icons = {
     apple = "􀣺",
     gear = "􀍟",
     cpu = "􀫥",
+    memory = "􀫦",
+    brew = "􀐚",
+    mail = "􀍕",
+    messages = "􀌤",
     clipboard = "􀉄",
-
     switch = {
       on = "􁏮",
       off = "􁏯",
