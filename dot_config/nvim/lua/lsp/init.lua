@@ -1,6 +1,6 @@
 local capabilities = require("lsp.handlers").capabilities
 
-local lspconfig = require("lspconfig") 
+local lspconfig = require("lspconfig")
 if _lspconfig then
 
 	-- Python

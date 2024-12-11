@@ -1,7 +1,5 @@
 return {
 	"hrsh7th/nvim-cmp",
-    enabled = false,	
-    lazy = true,
 	dependencies = {
 		"hrsh7th/cmp-copilot",
 		"hrsh7th/cmp-nvim-lsp",
@@ -12,6 +10,7 @@ return {
 		-- "hrsh7th/cmp-nvim-lsp-document-symbol",
 		"L3MON4D3/LuaSnip",
 		"saadparwaiz1/cmp_luasnip",
+        "mlaursen/vim-react-snippets",
 		-- "lukas-reineke/cmp-under-comparator", -- Better sort completion items starting with underscore (Python)
 	},
 	config = function()
@@ -25,10 +24,12 @@ return {
 
 		-- Lazy load all vscode like snippets
 		require("luasnip/loaders/from_vscode").lazy_load()
+        -- Lazy load all react snippets
+        require("vim-react-snippets").lazy_load()
 
 		cmp.setup({
 			preselect = cmp.PreselectMode.Item,
-			-- completion = { autocomplete = false }, -- Make completion only on demand
+			completion = { autocomplete = false }, -- Make completion only on demand
 			enabled = function()
 				local in_prompt = vim.api.nvim_buf_get_option(0, "buftype") == "prompt"
 				if in_prompt then

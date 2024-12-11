@@ -1,7 +1,7 @@
 return {
 	-- Project management
 	"ahmedkhalf/project.nvim",
-	lazy = true,
+	lazy = false,
 	dependencies = "nvim-telescope/telescope.nvim",
 	config = function()
 		require("project_nvim").setup({

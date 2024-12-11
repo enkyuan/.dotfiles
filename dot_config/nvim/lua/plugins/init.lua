@@ -31,7 +31,7 @@ local plugins = {
 	"folke/which-key.nvim",
 	require("plugins.configs.neoscroll"), -- Smoother scroll
 	require("plugins.configs.ufo"), -- Better fold management
-	require("plugins.configs.scrollbar"),
+    require("plugins.configs.scrollbar"),
     require("plugins.configs.cursorline"),
 	require("plugins.configs.trouble"),
 	require("plugins.configs.aerial"),
@@ -42,7 +42,6 @@ local plugins = {
 	require("plugins.configs.neotree"),
 	require("plugins.configs.lualine"),
 	require("plugins.configs.treesitter"),
-    require("plugins.configs.rosepine"),
 
 	---- Utilities
 	require("plugins.configs.telescope"),
@@ -51,11 +50,11 @@ local plugins = {
 	require("plugins.configs.dial"), -- Extended increment/decrement functions
 	require("plugins.configs.surround"), -- Autochange open/close chars
     require("plugins.configs.wakatime"),
-	-- require("plugins.configs.colorizer"), -- Colorize written color codes (#02F1AA, rgb(0,10,20)...)
+    require("plugins.configs.colorizer"), -- Colorize written color codes (#02F1AA, rgb(0,10,20)...)
 	require("plugins.configs.neoclip"), -- Clipboard manager
 	-- require("plugins.configs.toggleterm"), --- Improved terminal toggle
     "numToStr/FTerm.nvim",
-	-- require("plugins.configs.illuminate"), --- Automatically highlighting other uses of the word under the cursor
+    require("plugins.configs.illuminate"), --- Automatically highlighting other uses of the word under the cursor
 	require("plugins.configs.project"), -- Project management
 	"sitiom/nvim-numbertoggle", -- Automatic switch to absolute line numbers when you are not in normal or visual mode, or focus is in other split
 	require("plugins.configs.zen"),
@@ -77,6 +76,7 @@ local plugins = {
 	---- Code
 	require("plugins.configs.lspsaga"),
 	require("plugins.configs.refactor"),
+    require("plugins.configs.rename"),
 	require("plugins.configs.lens"),
 	require("plugins.configs.conform"), -- Formatting tool
     require("plugins.configs.glance"),
@@ -91,15 +91,18 @@ local plugins = {
 	require("lsp.configs.python"),
 
 	---- Snippets
-	"L3MON4D3/LuaSnip",
-	"rafamadriz/friendly-snippets",
+	-- require("plugins.configs.luasnip"),
+	-- "rafamadriz/friendly-snippets",
+
 	---- Completion
-	-- require("plugins.configs.coq"),
-    require("plugins.configs.blink"),
+    "brianaung/compl.nvim",
+    -- require("plugins.configs.cmp"),
 	require("plugins.configs.lspsignature"),
 	require("plugins.configs.copilot"),
-	-- Tmux
+
+	---- Tmux
 	require("plugins.configs.tmux"),
+
 	---- Git
 	require("plugins.configs.diffview"),
 	require("plugins.configs.gitsigns"), -- Add git related info in the signs columns and popups
@@ -107,7 +110,7 @@ local plugins = {
     --- Language specific
     require("plugins.configs.flutter"),
     require("plugins.configs.vimtex"),
-    require("plugins.configs.peek"),
+    -- require("plugins.configs.peek"),
 }
 
 -- vim.api.nvim_echo({ { 'Active theme: ' .. theme.theme_name, "Normal" } }, true, {});

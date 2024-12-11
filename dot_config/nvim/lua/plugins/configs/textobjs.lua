@@ -3,17 +3,20 @@ return {
 		config = function()
 			require("various-textobjs").setup({
 				-- lines to seek forwards for "small" textobjs (mostly characterwise textobjs)
-				-- set to 0 to only look in the current line
-				lookForwardSmall = 5,
-
-				-- lines to seek forwards for "big" textobjs (mostly linewise textobjs)
-				lookForwardBig = 15,
+   				-- lines to seek forwards for "big" textobjs (mostly linewise textobjs)
+                -- set to 0 to only look in the current line
+				forwardLooking = {
+                    small = 5,
+                    big = 15,
+                },
 
 				-- use suggested keymaps (see README)
-				useDefaultKeymaps = true,
+				keymaps = {
+                    useDefaults = true,
 
-				-- disable some default keymaps, e.g. { "ai", "ii" }
-				disabledKeymaps = {},
+                    -- disable some default keymaps, e.g. { "ai", "ii" }
+                    disabledKeymaps = {},
+                },
 			})
 		end,
 	}
